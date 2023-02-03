@@ -9,11 +9,11 @@ start ccbp start NJSCPABXOE
 submit ccbp submit NJSCPABXOE
 
 
-
 const express = require("express");
 const app = express();
 
 app.get("/", (request, response) => {
-  response.sent("Express JS");
+  response.send("Express JS");
 });
-module.export = app;
+module.exports = app;
+

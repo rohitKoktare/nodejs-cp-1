@@ -1,1 +1,19 @@
+Get a String
+Given an app.js file, write an API with path / using express JS to send Express JS text as a response.
 
+Export the express instance using default export syntax.
+
+Use Common JS module syntax
+
+start ccbp start NJSCPABXOE
+submit ccbp submit NJSCPABXOE
+
+
+
+const express = require("express");
+const app = express();
+
+app.get("/", (request, response) => {
+  response.sent("Express JS");
+});
+module.export = app;
